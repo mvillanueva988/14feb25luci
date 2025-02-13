@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Una historia interactiva 💖")
+st.title("HOLA SKIBIDI TOILET")
 st.write("Tu historia comienza aquí...")
 
 opcion = st.radio("¿Qué querés hacer primero?", ["Explorar el bosque", "Entrar a la cabaña"])
