@@ -174,7 +174,7 @@ def show_dialogue(text, emoji="💭"):
 
 # Historia secuencial
 if st.session_state["step"] == 0:
-    show_decorated_title("Magicoaventura skibid", "🏰", "⚔️")
+    show_decorated_title("Magicoaventura skibidi", "🏰", "⚔️")
     st.markdown("""
         <div style="text-align: center; padding: 30px 0;">
             <p style="font-size: 24px; font-style: italic;">Una historia medieval perturbadora</p>
