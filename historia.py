@@ -194,8 +194,8 @@ elif st.session_state["step"] == 1:
 
 elif st.session_state["step"] == 2:
     show_decorated_title("Capítulo 1: El despertar", "🌅", "🛏️")
-    show_dialogue("Todo comienza una hermosa mañana en la ciudad de CÓRDOBA...", "🌞")
-    show_dialogue("Hacían tan solo 39 grados, sin una puta nube sobre el cielo...", "🌡️")
+    show_dialogue("Todo comienza una hermosa mañana en la ciudad de CÓRDOBA", "🌞")
+    show_dialogue("Hacían tan solo 39 grados, sin una puta nube sobre el cielo", "🌡️")
     show_dialogue("Luci se encontraba despertándose en su curioso departamento, lleno de fotos de patas en todas las paredes.", "🦶")
     autoplay_audio("audios dross/audio2- todo comienza.wav")
     col1, col2 = st.columns(2)
@@ -235,9 +235,9 @@ elif st.session_state["step"] == 6:
     col2.button("Continuar ➡️", on_click=next_step)
 
 elif st.session_state["step"] == 7:
-    show_dialogue("Así emprendió su gesta ANTI TACC, esmerándose en su homofobia, porque si no lo sabían", "⚔️")
-    show_dialogue("Porque si no lo sabían, aparte de antisemillita, antisemita, anti-triguita y orgullosamente antipan y a su vez pansexual...", "🌟")
-    show_dialogue("Es alérgica a los Transexuales Arcaicos Chilenos Chidos...", "🏳️‍⚧️")
+    show_dialogue("Así emprendió su gesta ANTI TACC, esmerándose en su homofobia.", "⚔️")
+    show_dialogue("Porque si no lo sabían, aparte de antisemillita, antisemita, anti-triguita y orgullosamente antipan y a su vez pansexual;", "🌟")
+    show_dialogue("Es alérgica a los Transexuales Arcaicos Chilenos Chidos.", "🏳️‍⚧️")
     autoplay_audio("audios dross/audio7- gesta antitacc.wav")
     col1, col2 = st.columns(2)
     col1.button("⬅️ Retroceder", on_click=prev_step)
@@ -275,7 +275,7 @@ elif st.session_state["step"] == 10:
 elif st.session_state["step"] == 11:
     show_decorated_title("Final: La revelación", "🎭", "❤️")
     show_dialogue("Luego de recuperar tu bolsa del linyera, lograste bajar en Santiago del Estero para encontrarte con Mateo...", "🎒")
-    show_dialogue("Te confesó que el capítulo dos no fue desarrollado por falta de presupuesto...", "💰")
+    show_dialogue("Te confesó que el capítulo dos no fue desarrollado por falta de presupuesto", "💰")
     show_dialogue("Se gastó toda la plata en contratar a Dross como narrador y tras un accidente exótico en un recreo, fue demandado por derechos de Copyright.", "🎙️")
     show_dialogue("Aunque no por eso no te va a decir lo enamorado que está de tí, lo agradecido que está de tenerte como compañera y lo feliz que es al rededor tuyo, que este mamarracho gerontofílico vomitivo intento de originalidad fue mucho más dificil de completar de lo que parecía, pero que espera que te haya hecho reír un poco aunque sea, que te ama y te deja una cartita más seria a continuación. Se despide, Dross.", "❤️")
     autoplay_audio("audios dross/audio11- fin dross se despide.wav")
